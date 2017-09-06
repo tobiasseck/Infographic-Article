@@ -123,6 +123,7 @@ svg.append("g")
     .attr("transform", "translate(" + padding + ",0)")
     .call(yAxis);
     
+
 // titles to the axes
 svg.append("text")
   .attr("text-anchor", "middle")
@@ -146,6 +147,10 @@ function Next() {
       .classed("disabled", true);
     d3.selectAll(".lbutton")
     	.classed("disabled", false);
+    d3.selectAll(".inhalt1")
+    	.classed("invisible", true);
+    d3.selectAll(".inhalt2")
+    	.classed("invisible", false);
     
     d3.selectAll("circle")
       .transition()
@@ -167,7 +172,11 @@ function Next() {
     d3.selectAll(".lbutton")
       .classed("disabled", true);
     d3.selectAll(".rbutton")
-    	.classed("disabled", false);  
+    	.classed("disabled", false);
+    d3.selectAll(".inhalt1")
+    	.classed("invisible", false);
+    d3.selectAll(".inhalt2")
+    	.classed("invisible", true);
     
     d3.selectAll("circle")
       .transition()
