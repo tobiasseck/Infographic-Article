@@ -54,7 +54,8 @@ circle {
 }
 
 circle:hover { 
-    stroke: #000 1px;
+    opacity: 1;
+    stroke: darkgrey;
 }
 
 .axis path,
