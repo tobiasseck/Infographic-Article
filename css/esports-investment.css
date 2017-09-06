@@ -1,0 +1,186 @@
+h1 {
+     color: #000;
+     font-family:  'Raleway';
+     font-weight: normal;
+     font-size: 1.75em;
+     letter-spacing: .2em;
+     line-height: 1.1em;
+     margin:0px;
+     text-align: center;
+     text-transform: uppercase;
+}
+ 
+#container {
+    width:850px;
+    padding: 25px;
+    background: #fff;
+}
+#header {
+    width:800px;
+    padding: 5px;
+}
+
+#content {
+    background-color:#f4f4f4;
+    height:600px;
+    width:800px;
+    float:center;
+}
+
+#footer {
+    width:800px;
+    height: 50px;
+    float:center;
+}
+ 
+.footer{
+     color: grey;
+     font-family:  'Raleway';
+     font-weight: normal;
+     font-size: .75em;
+     letter-spacing: .18em;
+     margin:0px;
+     text-align: left;
+ }
+ 
+circle {
+    opacity: 0.6;
+    fill: white; 
+}
+
+circle:hover { 
+    stroke: #000 1px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+.yaxis path,
+.yaxis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.yaxis text {
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+.tooltip {	
+    position: absolute;			
+    text-align: center;
+    width: 120px;					
+    height: 80px;					
+    padding: 5px;
+    font-family: 'arial';
+    font: 9px;		
+    background: rgba(255,255,255,0.85);	
+    border-style: solid !important;
+    border-color: lightgrey !important;
+    border: 1px;				
+    pointer-events: none;
+    box-shadow: 4px 4px 2px grey;
+}
+
+.rbutton {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #666667;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  padding: 8px;
+  width: 70px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+  outline:0;
+}
+
+.rbutton span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  outline:0;
+}
+
+.rbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  outline:0;
+}
+
+.rbutton:hover span {
+  padding-right: 10px;
+  outline:0;
+}
+
+.rbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+  outline:0;
+}
+rbutton:focus {outline:0;}
+.lbutton {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #666667;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  padding: 8px;
+  width: 70px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+  outline:0;
+}
+
+.lbutton span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  outline:0;
+}
+
+.lbutton span:after {
+  content: '\00ab';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -44px;
+  transition: 0.5s;
+  outline:0;
+}
+
+.lbutton:hover span {
+  padding-left: 10px;
+  outline:0;
+}
+
+.lbutton:hover span:after {
+  opacity: 1;
+  left: 0;
+  outline:0;
+}
+lbutton:focus {outline:0;}
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed !important;
+}
