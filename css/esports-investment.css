@@ -195,6 +195,5 @@ lbutton:focus {outline:0;}
 }
 
 .invisible {
-  opacity: 0 !important;
-  cursor: none !important;
+  display:none !important;
 }
