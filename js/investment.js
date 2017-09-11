@@ -192,8 +192,8 @@ function Next() {
 svg.append('svg:image')
 .attr({
   'xlink:href': 'http://tobiasseck.com/teo_acronym_logotype_black-TEO-professional.png',
-  x: -150,
-  y: -150,
+  x: 250,
+  y: 150,
   width: 300,
   height: 300,
   opacity: 0.2
