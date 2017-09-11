@@ -197,4 +197,5 @@ svg.append('svg:image')
   width: 300,
   height: 300,
   opacity: 0.2
-});
+})
+.style("pointer-events","none");
