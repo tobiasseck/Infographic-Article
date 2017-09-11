@@ -224,13 +224,11 @@ function change(data) {
         var vert = i * height - offset;
         return 'translate(' + horz + ',' + vert + ')';
       });
-
     legend.append('rect')
       .attr('width', legendRectSize)
       .attr('height', legendRectSize)
       .style('fill', color)
       .style('stroke', color);
-
     legend.append('text')
       .attr('x', legendRectSize + legendSpacing)
       .attr('y', legendRectSize - legendSpacing)
@@ -321,4 +319,5 @@ svg.append('svg:image')
   width: 300,
   height: 300,
   opacity: 0.2
-});
+})
+.style("pointer-events","none");
