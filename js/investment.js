@@ -188,3 +188,13 @@ function Next() {
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide);
   ;} 
+
+svg.append('svg:image')
+.attr({
+  'xlink:href': 'http://tobiasseck.com/teo_acronym_logotype_black-TEO-professional.png',
+  x: -150,
+  y: -150,
+  width: 300,
+  height: 300,
+  opacity: 0.2
+});
