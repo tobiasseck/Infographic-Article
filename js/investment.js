@@ -130,6 +130,7 @@ diag_circles.data(investment)
 .attr("r", function(d){return Math.sqrt(d.summe*20);})
 .style("fill", function(d){
   if (d.datum < "1 / 1 / 15") {return "#42FF48";}
+  else if (d.datum < "1/1/16") {return "#2FA2F7";}
   else if (d.summe < 60) {return "#2FA2F7";}
   else {return "#0A30CA";}})
 .on('mouseover', tip.show)
