@@ -63,7 +63,7 @@ investment = [
   {"investee": "SLIVER.tv","datum": "	3	\/	30	\/	16	","summe": 	4.00	,"investors":	8	},
   {"investee": "Matcherino","datum": "	12	\/	17	\/	15	","summe": 	1.25	,"investors":	3	},
   {"investee": "Azubu","datum": "	12	\/	9	\/	15	","summe": 	55.00	,"investors":	2	},
-  {"investee": "hitbox Entertainment GmbH","datum": "	11	\/	2	\/	15	","summe": 	4.00	,"investors":	3	},
+  {"investee": "hitbox Entertainment","datum": "	11	\/	2	\/	15	","summe": 	4.00	,"investors":	3	},
   {"investee": "Battle of Glory","datum": "	11	\/	1	\/	15	","summe": 	0.1272	,"investors":	2	},
   {"investee": "Super League Gaming","datum": "	10	\/	16	\/	15	","summe": 	3.25	,"investors":	"unkown"	},
   {"investee": "ESforce Holding","datum": "	10	\/	15	\/	15	","summe": 	100.00	,"investors":	1	},
@@ -129,8 +129,8 @@ diag_circles.data(investment)
 .attr("cy", function(d){return yScale(d.summe);})
 .attr("r", function(d){return Math.sqrt(d.summe*20);})
 .style("fill", function(d){
-  if (d.datum < "1 \/ 1 \/ 15") {return "#42FF48";}
-  else if (d.datum < "1 \/ 1 \/ 16") {return "#2FA2F7";}
+  if (d.datum < "15") {return "#42FF48";}
+  else if (d.datum < "16") {return "#2FA2F7";}
   else {return "#0A30CA";}})
 .on('mouseover', tip.show)
 .on('mouseout', tip.hide);
