@@ -78,8 +78,6 @@ investment = [
   {"investee": "Unikrn","datum": "	2	\/	4	\/	15	","summe": 	2.50	,"investors":	3	},
   {"investee": "Unikrn","datum": "	11	\/	18	\/	14	","summe": 	0.35	,"investors":	1	},
   {"investee": "Azubu","datum": "	3	\/	26	\/	14	","summe": 	34.50	,"investors":	1	},
-  {"investee": "Pocket Gems","datum": "	12	\/	15	\/	10	","summe": 	5.00	,"investors":	3	},
-  {"investee": "Astro Gaming","datum": "1\/12\/9","summe": 	3.50	,"investors":	1	},
 ];
 
 //Set constants
