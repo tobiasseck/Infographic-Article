@@ -36,7 +36,7 @@ investment = [
   {"investee": "O'Gaming TV","datum": "	7	\/	25	\/	17	","summe": 	2.50	,"investors":	1	},
   {"investee": "Guilded","datum": "	7	\/	11	\/	17	","summe": 	0.12	,"investors":	1	},
   {"investee": "Matcherino","datum": "	7	\/	10	\/	17	","summe": 	1.50	,"investors":	3	},
-  {"investee": "GameScorekeeper","datum": "	7	\/	7	\/	17	","summe": 	0.23833	,"investors":	1	},
+  {"investee": "Game Scorekeeper","datum": "	7	\/	7	\/	17	","summe": 	0.23833	,"investors":	1	},
   {"investee": "Pandascore","datum": "	7	\/	6	\/	17	","summe": 	2.90	,"investors":	4	},
   {"investee": "Super League Gaming","datum": "	6	\/	29	\/	17	","summe": 	15.00	,"investors":	4	},
   {"investee": "rfrsh entertainment","datum": "	6	\/	28	\/	17	","summe": 	8.10	,"investors":	3	},
@@ -129,8 +129,8 @@ diag_circles.data(investment)
 .attr("cy", function(d){return yScale(d.summe);})
 .attr("r", function(d){return Math.sqrt(d.summe*20);})
 .style("fill", function(d){
-  if (d.datum < "1/1/15") {return "#42FF48";}
-  else if (d.datum < "1/1/18") {return "#2FA2F7";}
+  if (d.datum < "2015-01-01") {return "#42FF48";}
+  else if (d.datum < "2016-01-01") {return "#2FA2F7";}
   else {return "#0A30CA";}})
 .on('mouseover', tip.show)
 .on('mouseout', tip.hide);
