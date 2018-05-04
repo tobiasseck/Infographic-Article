@@ -104,7 +104,7 @@ var yScale = d3.scale.linear()
     /**.domain([0, d3.max(investment, function (d) {
     return d3.max([d.summe, d.investors]);
 })]) */
-		.domain([0,17])
+		.domain([0,16])
     .range([h - padding, padding]);
 
 //Select the svg
