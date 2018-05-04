@@ -128,7 +128,9 @@ diag_circles.data(investment)
 .attr("cx", function(d){return xScale(getDate(d));})
 .attr("cy", function(d){return yScale(d.summe);})
 .attr("r", function(d){return Math.sqrt(d.summe*20);})
-.style("fill", function(d){if (d.datum < 1\/1\/15) {return "#42FF48";} else if (d.datum < 1\/1\/16) {return "#05C70B";} else if (d.datum < 1\/1\/17) {return "#33FFFF";} else if (d.datum < 1\/1\/18) {return "#1BC0C0";} else if (d.datum < 1\/1\/19) {return "#2FA2F7";} else {return "#0A30CA";}})
+.style("fill", function(d){
+  if (d.datum < 1\/1\/15) {return "#42FF48";}
+  else {return "#0A30CA";}})
 .on('mouseover', tip.show)
 .on('mouseout', tip.hide);
 
