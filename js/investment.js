@@ -114,7 +114,7 @@ var svg = d3.select("svg");
 var tip = d3.tip()
     .attr('class', 'tooltip')
     .offset([-4, 0])
-    .html(function (d){if (d.investors > 1) {return "<strong>" + d.investee + "</strong><hr style='margin-top: 6px; margin-bottom: 2px' /><span style='font-size:11px'>Raised: " + d.summe + " M. USD<br />by " + d.investors + " Investors.</span>";} else {return "<strong>" + d.investee + "</strong><hr style='margin-top: 6px; margin-bottom: 2px' /><span style='font-size:11px'>Raised: " + d.summe + " M. USD<br />by " + d.investors + " Investor.</span>" <br />"Datum:" + d.datum + ;}});
+    .html(function (d){if (d.investors > 1) {return "<strong>" + d.investee + "</strong><hr style='margin-top: 6px; margin-bottom: 2px' /><span style='font-size:11px'>Raised: " + d.summe + " M. USD<br />by " + d.investors + " Investors.</span>";} else {return "<strong>" + d.investee + "</strong><hr style='margin-top: 6px; margin-bottom: 2px' /><span style='font-size:11px'>Raised: " + d.summe + " M. USD<br />by " + d.investors + " Investor.</span>";}});
 
 svg.call(tip);
 
@@ -128,7 +128,7 @@ diag_circles.data(investment)
 .attr("cx", function(d){return xScale(getDate(d));})
 .attr("cy", function(d){return yScale(d.summe);})
 .attr("r", function(d){return Math.sqrt(d.summe*20);})
-.style("fill", function(d){if (d.summe < 1) {return "#42FF48";} else if (d.summe < 5) {return "#05C70B";} 				else if (d.summe < 10) {return "#33FFFF";} else if (d.summe < 30) {return "#1BC0C0";} else if (d.summe < 60) {return "#2FA2F7";} else {return "#0A30CA";}})
+.style("fill", function(d){if (d.summe < 1) {return "#42FF48";} else if (d.summe < 5) {return "#05C70B";} else if (d.summe < 10) {return "#33FFFF";} else if (d.summe < 30) {return "#1BC0C0";} else if (d.summe < 60) {return "#2FA2F7";} else {return "#0A30CA";}})
 .on('mouseover', tip.show)
 .on('mouseout', tip.hide);
 
