@@ -1,6 +1,6 @@
 //Set up the data
 investment = [
-  {"investee": "Gosu.ai","datum": 03/21/18,"summe": 	1.90	,"investors":	3	},
+  {"investee": "Gosu.ai","datum": 03/21/2018,"summe": 	1.90	,"investors":	3	},
   {"investee": "Play2Live","datum": "	3	\/	21	\/	18	","summe": 	30.00	,"investors":	"unkown"	},
   {"investee": "Huya TV","datum": "	3	\/	9	\/	18	","summe": 	461.60	,"investors":	1	},
   {"investee": "Douyu TV","datum": "	3	\/	8	\/	18	","summe": 	632.00	,"investors":	1	},
