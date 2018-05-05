@@ -1,6 +1,6 @@
 //Set up the data
 investment = [
-  {"investee": "Gosu.ai","datum": " 3 \/ 21 \/ 18 ","summe": 	1.90	,"investors":	3	},
+  {"investee": "Gosu.ai","datum": 03/21/18,"summe": 	1.90	,"investors":	3	},
   {"investee": "Play2Live","datum": "	3	\/	21	\/	18	","summe": 	30.00	,"investors":	"unkown"	},
   {"investee": "Huya TV","datum": "	3	\/	9	\/	18	","summe": 	461.60	,"investors":	1	},
   {"investee": "Douyu TV","datum": "	3	\/	8	\/	18	","summe": 	632.00	,"investors":	1	},
@@ -129,7 +129,7 @@ diag_circles.data(investment)
 .attr("cy", function(d){return yScale(d.summe);})
 .attr("r", function(d){return Math.sqrt(d.summe*20);})
 .style("fill", function(d){
-  if (d.datum.valueOf() = "4/19/15") {return "#42FF48";}
+  if (d.datum.valueOf() == "4/19/15") {return "#42FF48";}
   else if (d.datum.valueOf() < "2016") {return "#2FA2F7";}
   else {return "#0A30CA";}})
 .on('mouseover', tip.show)
