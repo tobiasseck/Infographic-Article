@@ -1,6 +1,6 @@
 //Set up the data
 investment = [
-  {"investee": "Gosu.ai","datum": 03/21/2018,"summe": 	1.90	,"investors":	3	},
+  {"investee": "Gosu.ai","datum": 03/21/18,"summe": 	1.90	,"investors":	3	},
   {"investee": "Play2Live","datum": "	3	\/	21	\/	18	","summe": 	30.00	,"investors":	"unkown"	},
   {"investee": "Huya TV","datum": "	3	\/	9	\/	18	","summe": 	461.60	,"investors":	1	},
   {"investee": "Douyu TV","datum": "	3	\/	8	\/	18	","summe": 	632.00	,"investors":	1	},
@@ -77,7 +77,7 @@ investment = [
   {"investee": "Alphadraft","datum": "	4	\/	19	\/	15	","summe": 	5.00	,"investors":	12	},
   {"investee": "Unikrn","datum": "	2	\/	4	\/	15	","summe": 	2.50	,"investors":	3	},
   {"investee": "Unikrn","datum": "	11	\/	18	\/	14	","summe": 	0.35	,"investors":	"unkown"	},
-  {"investee": "Azubu","datum": "	3	\/	26	\/	14	","summe": 	34.50	,"investors":	1	},
+  {"investee": "Azubu","datum": 03/26/14,"summe": 	34.50	,"investors":	1	},
 ];
 
 //Set constants
