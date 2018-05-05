@@ -129,7 +129,7 @@ diag_circles.data(investment)
 .attr("cy", function(d){return yScale(d.summe);})
 .attr("r", function(d){return Math.sqrt(d.summe*20);})
 .style("fill", function(d){
-  if (d.datum.valueOf() = "[0-9+]/[0-9+]/14") {return "#42FF48";}
+  if (d.datum.valueOf() == "4/19/15") {return "#42FF48";}
   else if (d.datum.valueOf() < "2016") {return "#2FA2F7";}
   else {return "#0A30CA";}})
 .on('mouseover', tip.show)
