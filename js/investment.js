@@ -1,11 +1,11 @@
 //Set up the data
 investment = [
-  {"investee": "Gosu.ai","datum": "03-21-18" ,"summe": 	1.90	,"investors":	3	},
-  {"investee": "Play2Live","datum": "	3	\/	21	\/	18	","summe": 	30.00	,"investors":	"unkown"	},
-  {"investee": "Huya TV","datum": "	3	\/	9	\/	18	","summe": 	461.60	,"investors":	1	},
-  {"investee": "Douyu TV","datum": "	3	\/	8	\/	18	","summe": 	632.00	,"investors":	1	},
-  {"investee": "Vision Esports","datum": "	2	\/	22	\/	18	","summe": 	38.00	,"investors":	4	},
-  {"investee": "FanAI","datum": "	2	\/	22	\/	18	","summe": 	2.50	,"investors":	11	},
+  {"investee": "Gosu.ai","datum": "2018-03-21" ,"summe": 	1.90	,"investors":	3	},
+  {"investee": "Play2Live","datum": "2018-03-21","summe": 	30.00	,"investors":	"unkown"	},
+  {"investee": "Huya TV","datum": "2018-03-09","summe": 	461.60	,"investors":	1	},
+  {"investee": "Douyu TV","datum": "2018-03-08","summe": 	632.00	,"investors":	1	},
+  {"investee": "Vision Esports","datum": "2018-02-22","summe": 	38.00	,"investors":	4	},
+  {"investee": "FanAI","datum": "2018-02-22","summe": 	2.50	,"investors":	11	},
   {"investee": "Female Legends","datum": "	2	\/	19	\/	18	","summe": 	0.66355	,"investors":	1	},
   {"investee": "Kakao Games","datum": "	2	\/	15	\/	18	","summe": 	130.00	,"investors":	4	},
   {"investee": "Game Digital","datum": "	2	\/	12	\/	18	","summe": 	4.50	,"investors":	1	},
@@ -77,7 +77,7 @@ investment = [
   {"investee": "Alphadraft","datum": "	4	\/	19	\/	15	","summe": 	5.00	,"investors":	12	},
   {"investee": "Unikrn","datum": "	2	\/	4	\/	15	","summe": 	2.50	,"investors":	3	},
   {"investee": "Unikrn","datum": "	11	\/	18	\/	14	","summe": 	0.35	,"investors":	"unkown"	},
-  {"investee": "Azubu","datum": 03/26/2014 ,"summe": 	34.50	,"investors":	1	},
+  {"investee": "Azubu","datum": "2014-03-26" ,"summe": 	34.50	,"investors":	1	},
 ];
 
 //Set constants
