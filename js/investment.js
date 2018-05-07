@@ -206,7 +206,7 @@ function Next() {
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide);
     }
-    if (scalehelper = 100) {
+    else {
       scalehelper = 700;
       yScale.domain([0,scalehelper])
       svg.select(".yaxis")
