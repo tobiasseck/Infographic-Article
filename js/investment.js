@@ -173,7 +173,7 @@ svg.append("text")
 
 
 function Next() {
-			yScale.domain([0,100])
+			yScale.domain([0,700])
       svg.select(".yaxis")
       .transition().duration(2500).ease("sin-in-out")
       .call(yAxis);
