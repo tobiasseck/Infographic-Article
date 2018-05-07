@@ -42,7 +42,7 @@ investment = [
   {"investee": "rfrsh entertainment","datum": "	6	\/	28	\/	17	","summe": 	8.10	,"investors":	3	},
   {"investee": "Pocket Gems","datum": "	5	\/	11	\/	17	","summe": 	90.00	,"investors":	1	},
   {"investee": "DOJO MADNESS","datum": "	4	\/	5	\/	17	","summe": 	6.00	,"investors":	5	},
-  {"investee": "SLIVER.tv","datum": 03-17-2017 ,"summe": 	16.00	,"investors":	5	},
+  {"investee": "SLIVER.tv","datum": "03-17-2017" ,"summe": 	16.00	,"investors":	5	},
   {"investee": "Wavedash Games","datum": "	3	\/	2	\/	17	","summe": 	6.00	,"investors":	7	},
   {"investee": "Challengermode","datum": "	2	\/	24	\/	17	","summe": 	1.30	,"investors":	3	},
   {"investee": "rfrsh entertainment","datum": "	12	\/	22	\/	16	","summe": 	4.32	,"investors":	3	},
