@@ -174,7 +174,7 @@ svg.append("text")
 
 function Next() {
 
-  if (yScale.domain = [0,17]) {
+  if (yScale.domain = [0,17]) do {
 			yScale.domain([0,100])
       svg.select(".yaxis")
       .transition().duration(2500).ease("sin-in-out")
@@ -204,7 +204,7 @@ function Next() {
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide);
     }
-    else {
+    else do {
       yScale.domain([0,700])
       svg.select(".yaxis")
       .transition().duration(2500).ease("sin-in-out")
