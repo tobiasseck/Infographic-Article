@@ -83,7 +83,7 @@ investment = [
 //Set constants
 
 var w = 800, h = 600, padding = 60;
-var scalehelper = 17;
+var scalehelper = 16;
 
 //Create adaptable scales
 function getDate(d) {return new Date(d.datum);}
@@ -175,7 +175,7 @@ svg.append("text")
 
 function Next() {
 
-  if (scalehelper = 17) {
+  if (scalehelper = 16) {
       scalehelper = 100;
 			yScale.domain([0,100])
       svg.select(".yaxis")
@@ -206,7 +206,8 @@ function Next() {
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide);
     }
-    else {
+    if (scalehelper = 100) {
+      scalehelper = 700;
       yScale.domain([0,700])
       svg.select(".yaxis")
       .transition().duration(2500).ease("sin-in-out")
@@ -239,7 +240,7 @@ function Next() {
   ;}
 
  function Previous() {
-			yScale.domain([0,17])
+			yScale.domain([0,16])
       svg.select(".yaxis")
       .transition().duration(2500).ease("sin-in-out")
       .call(yAxis);
