@@ -42,7 +42,7 @@ investment = [
   {"investee": "rfrsh entertainment","datum": "	6	\/	28	\/	17	","summe": 	8.10	,"investors":	3	},
   {"investee": "Pocket Gems","datum": "	5	\/	11	\/	17	","summe": 	90.00	,"investors":	1	},
   {"investee": "DOJO MADNESS","datum": "	4	\/	5	\/	17	","summe": 	6.00	,"investors":	5	},
-  {"investee": "SLIVER.tv","datum": 03/17/2017 ,"summe": 	16.00	,"investors":	5	},
+  {"investee": "SLIVER.tv","datum": 03-17-2017 ,"summe": 	16.00	,"investors":	5	},
   {"investee": "Wavedash Games","datum": "	3	\/	2	\/	17	","summe": 	6.00	,"investors":	7	},
   {"investee": "Challengermode","datum": "	2	\/	24	\/	17	","summe": 	1.30	,"investors":	3	},
   {"investee": "rfrsh entertainment","datum": "	12	\/	22	\/	16	","summe": 	4.32	,"investors":	3	},
@@ -114,7 +114,7 @@ var svg = d3.select("svg");
 var tip = d3.tip()
     .attr('class', 'tooltip')
     .offset([-4, 0])
-    .html(function (d){if (d.investors > 1) {return "<strong>" + d.investee + "</strong><hr style='margin-top: 6px; margin-bottom: 2px' /><span style='font-size:11px'>Raised: " + d.summe + " M. USD<br />by " + d.investors + " Investors.<br />Datum: " + (d.datum+1) + "</span>";} else {return "<strong>" + d.investee + "</strong><hr style='margin-top: 6px; margin-bottom: 2px' /><span style='font-size:11px'>Raised: " + d.summe + " M. USD<br />by " + d.investors + " Investor.<br />Datum: " + d.datum + "</span>";}});
+    .html(function (d){if (d.investors > 1) {return "<strong>" + d.investee + "</strong><hr style='margin-top: 6px; margin-bottom: 2px' /><span style='font-size:11px'>Raised: " + d.summe + " M. USD<br />by " + d.investors + " Investors.<br />Datum: " + (d.datum) + "</span>";} else {return "<strong>" + d.investee + "</strong><hr style='margin-top: 6px; margin-bottom: 2px' /><span style='font-size:11px'>Raised: " + d.summe + " M. USD<br />by " + d.investors + " Investor.<br />Datum: " + d.datum + "</span>";}});
 
 svg.call(tip);
 
