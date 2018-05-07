@@ -191,6 +191,8 @@ function Next() {
     	.classed("invisible", true);
     d3.selectAll(".inhalt2")
     	.classed("invisible", false);
+    d3.selectAll(".inhalt3")
+      .classed("invisible", true);
 
     d3.selectAll("circle")
       .transition()
@@ -221,7 +223,9 @@ function Next() {
     d3.selectAll(".inhalt1")
     	.classed("invisible", true);
     d3.selectAll(".inhalt2")
-    	.classed("invisible", false);
+    	.classed("invisible", true);
+    d3.selectAll(".inhalt3")
+      .classed("invisible", false);
 
     d3.selectAll("circle")
       .transition()
@@ -256,6 +260,8 @@ function Next() {
     	.classed("invisible", false);
     d3.selectAll(".inhalt2")
     	.classed("invisible", true);
+    d3.selectAll(".inhalt3")
+      .classed("invisible", true);
 
     d3.selectAll("circle")
       .transition()
@@ -284,9 +290,11 @@ function Next() {
      d3.selectAll(".rbutton")
      	.classed("disabled", false);
      d3.selectAll(".inhalt1")
-     	.classed("invisible", false);
-     d3.selectAll(".inhalt2")
      	.classed("invisible", true);
+     d3.selectAll(".inhalt2")
+     	.classed("invisible", false);
+     d3.selectAll(".inhalt3")
+      .classed("invisible", true);
 
      d3.selectAll("circle")
        .transition()
