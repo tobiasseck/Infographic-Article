@@ -203,7 +203,7 @@ function Next() {
         else {return "#443132";}})
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide);
-    }
+    ;}
     else do {
       yScale.domain([0,700])
       svg.select(".yaxis")
@@ -233,7 +233,7 @@ function Next() {
         else {return "#443132";}})
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide);
-    }
+    ;}
   ;}
 
  function Previous() {
