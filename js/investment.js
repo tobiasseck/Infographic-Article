@@ -194,11 +194,11 @@ function Next() {
       .attr("cy", function(d){return yScale(d.summe);})
       .attr("r", function(d){return Math.sqrt(d.summe*20);})
       .style("fill", function(d) {
-      if (d.datum.valueOf() < "2015") {return "#EFAAAF";}
-      else if (d.datum.valueOf() < "2016") {return "#DF5F72";}
-      else if (d.datum.valueOf() < "2017") {return "#CF1E44";}
-      else if (d.datum.valueOf() < "2018") {return "#893B46";}
-      else {return "#443132";}})
+        if (d.datum.valueOf() < "2015") {return "#EFAAAF";}
+        else if (d.datum.valueOf() < "2016") {return "#DF5F72";}
+        else if (d.datum.valueOf() < "2017") {return "#CF1E44";}
+        else if (d.datum.valueOf() < "2018") {return "#893B46";}
+        else {return "#443132";}})
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide);
   ;}
@@ -224,7 +224,12 @@ function Next() {
       .attr("cx", function(d){return xScale(getDate(d));})
       .attr("cy", function(d){return yScale(d.summe);})
       .attr("r", function(d){return Math.sqrt(d.summe*20);})
-      .style("fill", function(d){if (d.summe < 1) {return "#42FF48";} else if (d.summe < 5) {return "#05C70B";} 				else if (d.summe < 10) {return "#33FFFF";} else if (d.summe < 30) {return "#1BC0C0";} else if (d.summe < 					60) {return "#2FA2F7";} else {return "#0A30CA";}})
+      .style("fill", function(d) {
+        if (d.datum.valueOf() < "2015") {return "#EFAAAF";}
+        else if (d.datum.valueOf() < "2016") {return "#DF5F72";}
+        else if (d.datum.valueOf() < "2017") {return "#CF1E44";}
+        else if (d.datum.valueOf() < "2018") {return "#893B46";}
+        else {return "#443132";}})
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide);
   ;}
