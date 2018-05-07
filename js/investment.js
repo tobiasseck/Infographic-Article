@@ -129,11 +129,11 @@ diag_circles.data(investment)
 .attr("cy", function(d){return yScale(d.summe);})
 .attr("r", function(d){return Math.sqrt(d.summe*20);})
 .style("fill", function(d){
-  if (d.datum.valueOf() < "2015") {return "#42FF48";}
-  else if (d.datum.valueOf() < "2016") {return "#2FA2F7";}
-  else if (d.datum.valueOf() < "2017") {return "#235625";}
-  else if (d.datum.valueOf() < "2018") {return "#173e60";}
-  else {return "#0A30CA";}})
+  if (d.datum.valueOf() < "2015") {return "#EFAAAF";}
+  else if (d.datum.valueOf() < "2016") {return "#DF5F72";}
+  else if (d.datum.valueOf() < "2017") {return "#CF1E44";}
+  else if (d.datum.valueOf() < "2018") {return "#893B46";}
+  else {return "#443132";}})
 .on('mouseover', tip.show)
 .on('mouseout', tip.hide);
 
