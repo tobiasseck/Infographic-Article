@@ -175,7 +175,7 @@ svg.append("text")
 
 function Next() {
 
-  if (scalehelper = 15) {
+  if (scalehelper = "15") {
       scalehelper = 100;
 			yScale.domain([0,scalehelper])
       svg.select(".yaxis")
