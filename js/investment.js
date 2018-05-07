@@ -177,7 +177,7 @@ function Next() {
 
   if (scalehelper = 16) {
       scalehelper = 100;
-			yScale.domain([0,100])
+			yScale.domain([0,scalehelper])
       svg.select(".yaxis")
       .transition().duration(2500).ease("sin-in-out")
       .call(yAxis);
