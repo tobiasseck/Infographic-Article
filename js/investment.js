@@ -60,7 +60,7 @@ investment = [
   {"investee": "Zengaming","datum": "	4	\/	21	\/	16	","summe": 	2.80	,"investors":	1	},
   {"investee": "Super League Gaming","datum": "	4	\/	20	\/	16	","summe": 	5.05	,"investors":	10	},
   {"investee": "Smash.gg","datum": "	4	\/	1	\/	16	","summe": 	3.00	,"investors":	2	},
-  {"investee": "SLIVER.tv","datum": "	3	\/	30	\/	16	","summe": 	4.00	,"investors":	8	},
+  {"investee": "SLIVER.tv","datum": 03/30/16 ,"summe": 	4.00	,"investors":	8	},
   {"investee": "Matcherino","datum": "	12	\/	17	\/	15	","summe": 	1.25	,"investors":	3	},
   {"investee": "Azubu","datum": "	12	\/	9	\/	15	","summe": 	55.00	,"investors":	2	},
   {"investee": "hitbox Entertainment","datum": "	11	\/	2	\/	15	","summe": 	4.00	,"investors":	3	},
