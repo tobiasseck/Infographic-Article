@@ -175,7 +175,7 @@ svg.append("text")
 
 function Next() {
 
-  if (scalehelper = 16) {
+  if (scalehelper = 15) {
       scalehelper = 100;
 			yScale.domain([0,scalehelper])
       svg.select(".yaxis")
@@ -208,7 +208,7 @@ function Next() {
     }
     if (scalehelper = 100) {
       scalehelper = 700;
-      yScale.domain([0,700])
+      yScale.domain([0,scalehelper])
       svg.select(".yaxis")
       .transition().duration(2500).ease("sin-in-out")
       .call(yAxis);
