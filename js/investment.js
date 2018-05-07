@@ -1,6 +1,6 @@
 //Set up the data
 investment = [
-  {"investee": "Gosu.ai","datum": 03/21/2018 ,"summe": 	1.90	,"investors":	3	},
+  {"investee": "Gosu.ai","datum": "03-21-18" ,"summe": 	1.90	,"investors":	3	},
   {"investee": "Play2Live","datum": "	3	\/	21	\/	18	","summe": 	30.00	,"investors":	"unkown"	},
   {"investee": "Huya TV","datum": "	3	\/	9	\/	18	","summe": 	461.60	,"investors":	1	},
   {"investee": "Douyu TV","datum": "	3	\/	8	\/	18	","summe": 	632.00	,"investors":	1	},
@@ -42,7 +42,7 @@ investment = [
   {"investee": "rfrsh entertainment","datum": "	6	\/	28	\/	17	","summe": 	8.10	,"investors":	3	},
   {"investee": "Pocket Gems","datum": "	5	\/	11	\/	17	","summe": 	90.00	,"investors":	1	},
   {"investee": "DOJO MADNESS","datum": "	4	\/	5	\/	17	","summe": 	6.00	,"investors":	5	},
-  {"investee": "SLIVER.tv","datum": "03-17-2017" ,"summe": 	16.00	,"investors":	5	},
+  {"investee": "SLIVER.tv","datum": "2017-03-17" ,"summe": 	16.00	,"investors":	5	},
   {"investee": "Wavedash Games","datum": "	3	\/	2	\/	17	","summe": 	6.00	,"investors":	7	},
   {"investee": "Challengermode","datum": "	2	\/	24	\/	17	","summe": 	1.30	,"investors":	3	},
   {"investee": "rfrsh entertainment","datum": "	12	\/	22	\/	16	","summe": 	4.32	,"investors":	3	},
