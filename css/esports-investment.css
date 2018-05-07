@@ -9,7 +9,7 @@ h1 {
      text-align: center;
      text-transform: uppercase;
 }
- 
+
 #container {
     width:850px;
     padding: 25px;
@@ -32,7 +32,7 @@ h1 {
     height: 50px;
     float:center;
 }
- 
+
 .footer{
      color: grey;
      font-family:  'Raleway';
@@ -42,13 +42,13 @@ h1 {
      margin:0px;
      text-align: left;
  }
- 
+
 circle {
     opacity: 0.6;
-    fill: white; 
+    fill: white;
 }
 
-circle:hover { 
+circle:hover {
     opacity: 1;
     stroke: darkgrey;
 }
@@ -77,18 +77,18 @@ circle:hover {
   font-size: 11px;
 }
 
-.tooltip {	
-    position: absolute;			
+.tooltip {
+    position: absolute;
     text-align: center;
-    width: 120px;					
-    height: 80px;					
+    width: 120px;
+    height: 80px;
     padding: 5px;
     font-family: 'arial';
-    font: 9px;		
-    background: rgba(255,255,255,0.85);	
+    font: 9px;
+    background: rgba(255,255,255,0.85);
     border-style: solid !important;
     border-color: lightgrey !important;
-    border: 1px;				
+    border: 1px;
     pointer-events: none;
     box-shadow: 4px 4px 2px grey;
 }
@@ -191,6 +191,10 @@ lbutton:focus {outline:0;}
 }
 
 .inhalt2 b{
+  font-size: 1.2em;
+}
+
+.inhalt3 b{
   font-size: 1.2em;
 }
 
