@@ -240,7 +240,9 @@ function Next() {
   ;}
 
  function Previous() {
-			yScale.domain([0,16])
+   if (scalehelper < 101){
+     scalehelper = 16;
+			yScale.domain([0,scalehelper])
       svg.select(".yaxis")
       .transition().duration(2500).ease("sin-in-out")
       .call(yAxis);
@@ -268,6 +270,38 @@ function Next() {
         else {return "#443132";}})
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide);
+    }
+    else {
+      scalehelper = 100;
+ 			yScale.domain([0,scalehelper])
+       svg.select(".yaxis")
+       .transition().duration(2500).ease("sin-in-out")
+       .call(yAxis);
+
+     d3.selectAll(".lbutton")
+       .classed("disabled", false);
+     d3.selectAll(".rbutton")
+     	.classed("disabled", false);
+     d3.selectAll(".inhalt1")
+     	.classed("invisible", false);
+     d3.selectAll(".inhalt2")
+     	.classed("invisible", true);
+
+     d3.selectAll("circle")
+       .transition()
+       .duration(2500).ease("sin-in-out")
+       .attr("cx", function(d){return xScale(getDate(d));})
+       .attr("cy", function(d){return yScale(d.summe);})
+       .attr("r", function(d){return Math.sqrt(d.summe*20);})
+       .style("fill", function(d) {
+         if (d.datum.valueOf() < "2015") {return "#EFAAAF";}
+         else if (d.datum.valueOf() < "2016") {return "#DF5F72";}
+         else if (d.datum.valueOf() < "2017") {return "#CF1E44";}
+         else if (d.datum.valueOf() < "2018") {return "#893B46";}
+         else {return "#443132";}})
+       .on('mouseover', tip.show)
+       .on('mouseout', tip.hide);
+    }
   ;}
 
 svg.append('svg:image')
