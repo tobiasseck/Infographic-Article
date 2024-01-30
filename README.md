@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project presents a data-driven article created as part of my professional journey from a financial journalist to a data analyst. The article, rooted in extensive data-driven reporting, represents a synthesis of journalistic acumen and analytical expertise. This README outlines the approach, methodology, and significance of the project, showcasing my ability to transform complex data into insightful and accessible information.
+This project presents a data-driven article created as part of my professional journey as a financial journalist and data analyst. The article, rooted in extensive data-driven reporting, represents a synthesis of journalistic acumen and analytical expertise. This README outlines the approach, methodology, and significance of the project, showcasing my ability to transform complex data into insightful and accessible information.
 
 ## Project Overview
 This project presents an analysis of the investments made in esports companies since 2014. The data reveals the growing trend of investments in this industry, with a detailed breakdown of investment amounts and transaction volumes.
