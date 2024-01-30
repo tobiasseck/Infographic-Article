@@ -18,19 +18,19 @@ This project presents an analysis of the investments made in esports companies s
 - **Sources**: The data was sourced from The Esports Observer's esports industry database TEO Professional. 
 - **Criteria**: Data selection was based on relevance, recency, and accuracy - I was the person responsible for data sourcing for the TEO Professional database.
 
-## Data Processing
+### Data Processing
 
 - **Tools Used**: The project employed data processing tools capable of handling small datasets, including software like TEO Professional and MySQL.
 - **Techniques**: Given the nature of the data, techniques such as data normalization, categorization, and time-series analysis were utilized to prepare the data for analysis.
 - **Validation**: The data was validated for accuracy and consistency, ensuring that the insights drawn were reliable and reflective of real-world trends.
 
-## Analysis
+### Analysis
 
 - **Methodology**: The analysis was aimed at uncovering trends in esports investments, including the growth in investment amounts and frequency over time.
 - **Insights**: Key insights include the identification of significant growth periods in esports investments, average investment sizes, and the emergence of major players in the market.
 - **Visualizations**: The project employs data visualizations to effectively communicate these insights, using a bubble chart to illustrate trends and patterns in the investment data.
 
-## Reporting
+### Reporting
 
 - **Narrative**: The article integrates data-driven insights with an engaging narrative, providing a comprehensive overview of the esports investment landscape.
 - **Audience Engagement**: The use of visual data storytelling techniques ensures the content is accessible and engaging to a broad audience, including those not familiar with financial data.
