@@ -37,7 +37,7 @@ This project presents an analysis of the investments made in esports companies s
 
 ## Reflections and Learnings
 
-Throughout this project, I've gained invaluable insights into the dynamic world of esports investments. One major learning was the importance of accurate and comprehensive data collection. I encountered challenges in sourcing reliable data, which taught me the significance of thorough verification and the need for multiple data sources. Additionally, translating complex financial data into engaging narratives for TEA readers was both challenging and rewarding. It underscored the importance of storytelling in data analytics, making complex information accessible and engaging to a broader audience. This project has been instrumental in honing my skills in data analysis, visualization, and journalistic reporting within the esports domain.
+Throughout this project, I've gained invaluable insights into the dynamic world of esports investments. One major learning was the importance of accurate and comprehensive data collection. I encountered challenges in sourcing reliable data, which taught me the significance of thorough verification and the need for multiple data sources. Additionally, translating complex financial data into engaging narratives for TEO readers was both challenging and rewarding. It underscored the importance of storytelling in data analytics, making complex information accessible and engaging to a broader audience. This project has been instrumental in honing my skills in data analysis, visualization, and journalistic reporting within the esports domain.
 
 ## Future Directions
 
