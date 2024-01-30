@@ -17,7 +17,7 @@ This project presents an analysis of the investments made in esports companies s
 
 - **Sources**: The data was sourced from The Esports Observer's esports industry database TEO Professional. 
 - **Criteria**: Data selection was based on relevance, recency, and accuracy - I was the person responsible for data sourcing for the TEO Professional database.
-- 
+
 ## Data Processing
 
 - **Tools Used**: The project employed data processing tools capable of handling small datasets, including software like TEO Professional and MySQL.
