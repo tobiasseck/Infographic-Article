@@ -66,4 +66,4 @@ These future directions aim to solidify The Esports Advocate as a leading source
 
 ---
 
-This README is part of my portfolio in data analytics, business analytics, and data science, demonstrating my ability to make data useful and accessible. For more information, please visit (https://tobiasseck.com).
+This README is part of my portfolio in data analytics, business analytics, and data science, demonstrating my ability to make data useful and accessible. For more information, please visit https://tobiasseck.com.
