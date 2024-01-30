@@ -1,4 +1,4 @@
-# Data-Driven Article: The Esports Investments since 2014
+# Interactive Data-Driven Article: The Esports Investments since 2014
 
 ## Introduction
 
