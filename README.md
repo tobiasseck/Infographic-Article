@@ -7,7 +7,7 @@ This project presents a data-driven article created as part of my professional j
 ## Project Overview
 This project presents an analysis of the investments made in esports companies since 2014. The data reveals the growing trend of investments in this industry, with a detailed breakdown of investment amounts and transaction volumes.
 - **Title**: The Esports Investments since 2014
-- **Live Link**: https://tobiasseck.github.io/Inforgraphic-Article/
+- **Live Link**: https://tobiasseck.github.io/Infographic-Article/
 - **Objective**: The primary objective of this project was to showcase the rapid growth of investments in the nascent esports industry. This involved sourcing reliable data and figuring out a concept to visualize the data.
 - **Target Audience**: This article was designed for readers interested in the business of esports, including investors and C-level decision-makers in the industry.
 
